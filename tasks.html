@@ -4,11 +4,13 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
+  <title>Internprojeksjon</title>
+  <meta name="description" content="Internprojeksjon">
   <meta name="author" content="SitePoint">
 
+  <link rel="stylesheet" href="css/main.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/navbar.min.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -16,29 +18,35 @@
 </head>
 
 <body>
-	<div class="navbar">
-	  <div class="container">
-	    <a href="#" class="brand"> Internprojeksjon </a>
-	    <ul class="navbar-menu">
-	      <li><a href="./about.html">Om</a></li>
-	      <li><a href="#">Oppgaver</a></li>
-	      <li><a href="#">Bedrift</a></li>
-	      <li><a href="#">Kontakt</a></li>
-	    </ul>
-	  </div>
+	<div id="header">
+		<div class="navbar center">
+		  <div class="container">
+		    <a href="#" class="button-toggle">
+		  
+		    </a>
+		    <ul class="navbar-menu">
+		      <li><a id="aboutBtn" href="./about.html">Om</a></li>
+		      <li><a id="tasksBtn" href="./tasks.html" style="font-weight: bold;">Oppgaver</a></li>
+		      <li><a id="companiesBtn" href="#" >Bedrift</a></li>
+		      <li><a id="contactRoute" href="#">Kontakt</a></li>
+		    </ul>
+		    </ul>
+				<hr>
+		  </div>
+		</div>
+		<div class="center header-text">
+			<h3>Linjeforeningen</h3>
+			<h1>INTERNPROJEKSJON</h1>
+		</div>
 	</div>
-	<header>
-	  <div class="box bg-cover" style="background-image: url(https://thelistlove.files.wordpress.com/2014/03/26.jpg)">
-	</header>
 
 	<div class="container">
 	  <div class="row">
-	  	<h2>Oppgaver for både prosjekt- og masteroppgave</h2>
-	    <p id="infofield">Er du interessert i kart? Bruker du GPS på mobilen? Har du lyst å lære hvordan man måler opp jorda på millimeteren ved hjelp av satellitter? Har du lyst å lære hvoran man kan benytte digitale kamera for å registrere formen på en bil i 3D ned til minste detalj? Da kan hovedprofilen for geomatikk være tingen for deg. </p>
+	    	<h2>Her kan du finne forslag til både prosjekt- og masteroppgave</h2>
 	  </div>
 	</div>
 
-	  
+
 	  <footer class="footer bg-gray">
 	  <div class="container">
 	    <div class="row">
@@ -54,7 +62,8 @@
 	      <div class="col-onethird">
 	        <h4>For studenter ved geomatikk på NTNU</h4>
 	        <ul>
-	          <li>Hei</li>
+	          <li>Heis</li>
+	          <li>Sann</li>
 	          <li>Hopp</li>
 	          <li>Sann</li>
 	        </ul>
@@ -65,7 +74,8 @@
 	    </div>
 	  </div>
 	</footer>
-  <script src="js/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+  	<script src="js/main.js"></script>
 </body>
 </html>
 
