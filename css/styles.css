@@ -1,15 +1,5 @@
-html, body {
-  line-height: 1.6;
-  font-size: 16px;
-  color: #333;
-}
 p {
   margin-bottom: 12px;
-}
-ul {
-  list-style-type: disc;
-  margin-bottom: 12px;
-  margin-left: 1em;
 }
 
 * {
@@ -118,7 +108,7 @@ label {
   border: 3px solid transparent;
   border-color: rgba(0,0,0,.15);
   transition: border-color .3s;
-  
+
   /* mobile */
   box-shadow: none;
   border-radius: 0;
@@ -146,7 +136,7 @@ label {
   color: skyblue;
   transition: background-color .3s;
   cursor: pointer;
-  
+
 /*   mobile */
   margin: 0;
 }
@@ -157,72 +147,6 @@ label {
 
 
 
-/* navbar */
-.navbar {
-  background-color: #fafafa;
-  border-bottom: 1px solid #eee;
-/*   margin-bottom: 15px; */
-  min-height: 44px;
-}
-.brand {
-  display: inline-block;
-  padding: 10px 0;
-  line-height: 24px;
-  color: #777;
-  font-weight: bold;
-  text-decoration: none;
-  transition: color .3s;
-}
-.navbar-menu {
-  margin: 0;
-}
-.navbar-menu > li {
-  display: inline-block;
-}
-.navbar-menu > li > a {
-  display: block;
-  padding: 10px 5px;
-  line-height: 24px;
-  color: #777;
-  text-decoration: none;
-  transition: color .3s;
-}
-.navbar-menu > li > a:hover,
-.navbar-menu > li > a:focus {
-  color: skyblue;
-}
-.navbar-menu {
-  float: right;
-}
-.button-toggle {
-  float: right;
-  display: none;
-  padding: 5px 10px;
-  margin: 5px 0;
-  line-height: 24px;
-  color: #777;
-  text-decoration: none;
-  transition: color .3s;
-  border: 1px solid #ccc;
-}
-
-
-/* mobile menu */
-@media screen and (max-width: 600px) {
-  .navbar-menu {
-    float: none;
-    display: none;
-  }
-  .navbar-menu.active {
-    display: block;
-  }
-  .navbar-menu > li {
-    display: block;
-  }
-  .button-toggle {
-    display: inline-block;
-  }
-}
 
 /* partials */
 .footer {
@@ -231,18 +155,3 @@ label {
   background-color: #777;
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
