@@ -66,6 +66,23 @@
     a:focus{
       color: rgb(206, 206, 206);
     }
+    &.active{
+      margin-top: -30px;
+      background-color: white;
+      width: 100vw;
+      height: 210px;
+      display: table-caption;
+    
+      li{
+        margin-top: 20px;
+        display: -webkit-box;
+      }
+      a{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: black;
+      }
+    }
   }
 
   .button-toggle {
