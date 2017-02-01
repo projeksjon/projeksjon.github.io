@@ -1,6 +1,5 @@
 #header{
   background-image: url('../images/headerImg.png');
-  background-size: 100%;
   margin-top: -100px;//to crop picture;
   background-repeat: no-repeat;
   background-position: center;
@@ -79,6 +78,7 @@
     line-height: 24px;
     color: green;
     width: 40px;
+    height: 40px;
     text-decoration: none;
     transition: color .3s;
     border: 2px solid white;
