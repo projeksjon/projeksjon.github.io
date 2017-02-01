@@ -9,8 +9,11 @@
   h3, h1{
     color: white;
   }
+  a{
+    font-weight: 200;
+  }
   h1{
-    font-size: 70px;
+    font-size: 5vw;
     font-weight: 300;
     margin-top: 10px;
   }
@@ -21,11 +24,11 @@
   }
   .header-text{
     margin-top: 100px;
-    width: 700px;
+    // width: 700px;
     text-align: center;
   }
   hr{
-    height: 2px;
+    height: 1.5px;
     background-color: white;
     border: 0;
   }
@@ -75,6 +78,23 @@
     transition: color .3s;
     border: 1px solid #ccc;
   }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .header-text{
+    margin-top: 40px!important;
+  }
+
+}
+
+@media screen and (max-width: 980px) {
+
+  .header-text{
+    margin-top: 10px!important;
+  }
+
 }
 
 
