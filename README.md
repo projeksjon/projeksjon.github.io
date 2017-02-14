@@ -26,3 +26,7 @@ $ jekyll serve
 ## How to make a blog post
 
 Add a new file in the _posts directory, it is very important that you use the following naming convention:
+
+YEAR-MONTH-DAY-title.md
+
+See _posts for examples
