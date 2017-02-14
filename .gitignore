@@ -54,4 +54,6 @@ fabric.properties
 # .idea/misc.xml
 # *.ipr
 
+
+_site/
 # End of https://www.gitignore.io/api/webstorm
