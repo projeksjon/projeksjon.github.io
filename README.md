@@ -29,4 +29,8 @@ Add a new file in the _posts directory, it is very important that you use the fo
 
 YEAR-MONTH-DAY-title.md
 
-See _posts for examples
+See _posts for examples. The format is github markdown. So you can learn about fotmatting here:
+
+https://guides.github.com/features/mastering-markdown/
+
+
