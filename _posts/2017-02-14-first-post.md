@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First blog!!
+title: Første blogg!!
 ---
 Bacon ipsum dolor amet tongue meatloaf tri-tip meatball, cow spare ribs prosciutto jerky kevin ham hock ball tip t-bone pork. Tri-tip tenderloin cow shank beef brisket strip steak drumstick burgdoggen. Strip steak shoulder ground round hamburger venison spare ribs salami. Porchetta pig capicola turducken tongue short ribs meatloaf doner kevin prosciutto leberkas boudin tenderloin pork sausage. Capicola frankfurter sausage ground round. Pork chop strip steak frankfurter short ribs kielbasa. Kielbasa turkey cupim filet mignon corned beef shankle sirloin.
 
