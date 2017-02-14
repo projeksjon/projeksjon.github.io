@@ -7,11 +7,12 @@ layout: default
         <div class="col-md-6">
           <h1>{{page.title}}</h1>
             {% assign author = site.data.people[page.author] %}
-            Skrevet av <a rel="author"
-              href="https://github.com/{{ author.github }}"
-              title="{{ author.name }}">
-                {{ author.name }}
-            </a>
+            <p>
+              <small>
+                Skrevet av <a rel="author" href="https://github.com/{{ author.github }}" title="{{ author.name }}">
+                  {{ author.name }}</a>
+              </small>
+            </p>
           {{ content }}
         </div>
     </div>
