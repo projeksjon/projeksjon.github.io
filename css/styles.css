@@ -355,24 +355,10 @@ img::-moz-selection {
     background: 0 0;
 }
 
-@media (min-width: 576px)
-_card.scss:212
-.card-group .card+.card {
-    margin-left: 18px!important;
-    border-left: 0;
-}
-
 #first .inner{
     background-color: rgba(255, 255, 255, 0.85);
     padding-top: 45px;
     padding-bottom: 27px;
     max-width: 500px;
     border: 12px;
-}
-
-#one img{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    width: 94%;
 }
