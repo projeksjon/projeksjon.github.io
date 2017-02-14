@@ -7,14 +7,12 @@ body {
 }
 
 body {
-    /*font-family: 'Montserrat','Helvetica Neue',Arial,sans-serif;*/
+    font-family: 'Montserrat','Helvetica Neue',Arial,sans-serif;
     color: #001A33;
     webkit-tap-highlight-color: #222;
     top:0;
 }
-h1, h2, h3, h4, h5, p{
-    font-weight: 400!important;
-}
+
 /* workaround modal-open padding issue */
 body.modal-open {
     padding-right:0 !important;
